@@ -1,0 +1,31 @@
+{
+   "author": "Tor-Haakon",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "32": "KSicon-20-032-1.png",
+         "48": "KSicon-20-048-1.png",
+         "64": "KSicon-20-064-1.png"
+      },
+      "default_title": "Keyboard Surfing"
+   },
+   "content_scripts": [ {
+      "js": [ "chromeCsMerged.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Web browsing with keyboard, no need to use a mouse. Go mouseless today! (Modified to suport vim-keys)",
+   "icons": {
+      "32": "KSicon-20-032-1.png",
+      "48": "KSicon-20-048-1.png",
+      "64": "KSicon-20-064-1.png"
+   },
+   "manifest_version": 2,
+   "name": "Keyboard Surfing",
+   "options_page":"options.html",
+   "permissions": [ "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.23"
+}

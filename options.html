@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+
+<body style ="font-size: 110%">
+   
+<div style="width:600px">
+	<label>    
+		<input type="checkbox" id="isKSEnabledOnStart" />    
+		Start Enabled on New Page	
+	</label>
+	<p style="margin: 4px 40px; opacity: 0.7; line-height: 1.3em; ">Keyboard Surfing will be enabled by default (press PAUSE key to enable/disable)</p>
+	<hr />  
+    
+	<label>Use Numpad for Keyboard Surfing</label>
+	<ul style="list-style:none; padding-top: 0px; margin-top: 3px; margin-bottom: 5px">		
+		<li>
+			<input type = "radio" name = "aa" id = "numAlways" value = "always" />
+			<label for = "numAlways">Always</label>
+		</li><li>
+			<input type = "radio" name = "aa" id = "numXtb" value = "Xtb" />
+			<label for = "numXtb">Release numpad in a textbox</label>
+		</li><li>
+			<input type = "radio" name = "aa" id = "numNever" value = "never" />
+			<label for = "numNever">Never</label>
+		</li>
+	</ul>		
+	<hr />  
+	<label>    
+		<input type="checkbox" id="isLeftEnabled" />
+		Use LeftKeys for Keyboard Surfing	
+	</label>
+	<p style="margin: 4px 40px; opacity: 0.7; line-height: 1.3em; "> Use left-hand keys (E,S,D,F, etc.)</p>
+	<hr />  
+	<label>    
+		<input type="checkbox" id="isRightEnabled" />	    
+		Use RightKeys for Keyboard Surfing		
+	</label>
+	<p style="margin: 4px 40px; opacity: 0.7; line-height: 1.3em; ">Use right-hand keys (I,J,K,L, etc.)</p>
+	<hr />  
+	<label>    
+		<input type="checkbox" id="isPreferTabs" />	    
+		Prefer Tabs	to Windows
+	</label>
+	<p style="margin: 4px 40px; opacity: 0.7; line-height: 1.3em; ">Switch keys, new tabs for new windows</p>
+  
+	<hr />  
+    <!-- Change wheter the following is a blacklist,whitelist depending on what EnableOnStart is  -->
+	<p style="margin: 4px 40px; opacity: 0.7; line-height: 1.3em; ">This list overides the Enable On New Page Option for spesific pages</p>
+    <textarea id="enabledOnStartList" style="margin: 4px 40px; height:200px; width:500px; line-height: 1.3em; "></textarea>
+  <br />
+  <button style="float: left; margin: 0px 30px 20px 10px" id="save">Save</button>
+  
+  <div id="status" style="visibility: hidden; padding: 5px 40px;"> TEST</div>
+
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

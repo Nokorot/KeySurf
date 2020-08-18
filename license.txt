@@ -1,0 +1,38 @@
+
+-------------------------------------------------------------
+          Keyboard Surfing - License Agreement
+-------------------------------------------------------------
+
+Copyright 2016 Somnia
+e-mail: somnia@tuta.io
+
+Permission is hereby granted, free of charge, to any person 
+or organization obtaining a copy of this software entitled 
+Keyboard Surfing ("this Software") to use, perform, 
+reproduce, display, distribute, execute, and transmit 
+this Software, all subject to the following: this Software 
+has to be kept as it is, without any modifications.
+
+You are not allowed to modify, translate, reverse engineer 
+(except to the extent applicable laws specifically 
+prohibit such restriction), or create derivative works based 
+on this Software. Distributing modified copies of this 
+Software is prohibited. This applies to all files 
+distributed in the original package, including the source 
+code, text and graphics.
+
+The copyright notices in this Software and this entire 
+License Agreement must be included in all copies 
+of this Software.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY 
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE 
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE 
+COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THIS SOFTWARE BE 
+LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+CONNECTION WITH THIS SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THIS SOFTWARE.
+
+
